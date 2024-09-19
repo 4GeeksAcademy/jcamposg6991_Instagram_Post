@@ -1,4 +1,4 @@
-body{
+*{
     margin: 0;
     padding: 0;
 }
@@ -39,6 +39,7 @@ body{
 
 img{
     width: 100%;
+  
 }
 
 .icons{
@@ -50,4 +51,9 @@ img{
 
 .post-body-left{
     display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    margin: 5px;
 }
